@@ -1,9 +1,19 @@
-<h1>Contact</h1>
+<script>
+    import Page from '../components/templates/default-template.svelte'
+</script>
 
-<p>
-    Lorem ipsum dolor sit amet.
-</p>
+<Page>
+    <span slot="sidebar">
+        contact menu
+    </span>
 
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, iure.
-</p>
+    <span slot="main-content">
+        <h1>Contact</h1>
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, iure.
+        </p>
+    </span>
+</Page>
